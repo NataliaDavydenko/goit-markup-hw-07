@@ -422,6 +422,11 @@ img {
   transition: border-color var(--main-transition);
 }
 
+.modal-form__message:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
 .modal-form__custom-checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1030,6 +1035,12 @@ img {
   border-radius: 4px;
   color: var(--secondary-text-color-white);
   outline: none;
+  -webkit-transition: border-color var(--main-transition);
+  transition: border-color var(--main-transition);
+}
+
+.footer-input:focus {
+  border-color: var(--accent-color);
 }
 
 .footer-form-btn {

@@ -158,6 +158,11 @@
     color: rgba(117, 117, 117, 0.5);
 
     transition: border-color var(--main-transition);
+
+    &:focus {
+        outline: none;
+        border-color: var(--accent-color);
+        }
 }
 
 .modal-form__custom-checkbox {

@@ -129,6 +129,12 @@
 
     color: var(--secondary-text-color-white);
     outline: none;
+
+    transition: border-color var(--main-transition);
+
+    &:focus{
+        border-color: var(--accent-color);
+    }
 }
 
 .footer-form-btn {
