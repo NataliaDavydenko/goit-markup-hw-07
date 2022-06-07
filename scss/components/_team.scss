@@ -1,4 +1,4 @@
-.team {
+.section--other-bckg {
     background-color: var(--secondary-background-color);
 
     font-size: 16px;
@@ -6,7 +6,7 @@
     letter-spacing: 0.03em;
 }
 
-.team__list {
+.team {
     display: flex;
 }
 
@@ -26,11 +26,11 @@
     }
 }
 
-.team__description {
+.team__box {
     padding: 30px 0;
 }
 
-.team__name {
+.team__title {
     margin-bottom: 10px;
 
     font-size: 16px;
@@ -40,7 +40,7 @@
     color: var(--main-text-color);
 }
 
-.team__position {
+.team__text {
     margin-bottom: 16px;
 
     color: var(--secondary-text-color);
